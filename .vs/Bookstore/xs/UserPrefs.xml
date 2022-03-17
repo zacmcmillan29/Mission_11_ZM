@@ -1,31 +1,18 @@
 ﻿<Properties StartupConfiguration="{5446E8F9-8CC4-490A-BEFD-9700712A96F9}|Default">
   <MonoDevelop.Ide.ItemProperties.Bookstore PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Bookstore/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Bookstore/Pages/Admin/AdminLayout.razor">
     <Files>
-      <File FileName="Bookstore/Pages/Admin/AdminLayout.razor" Line="5" Column="79" />
-      <File FileName="Bookstore/Controllers/AccountController.cs" Line="1" Column="1" />
-      <File FileName="Bookstore/Models/LoginModel.cs" Line="9" Column="19" />
-      <File FileName="Bookstore/Startup.cs" Line="119" Column="1" />
-      <File FileName="Bookstore/Models/Purchase.cs" />
-      <File FileName="Bookstore/Models/AppIdentityDBContext.cs" Line="1" Column="1" />
-      <File FileName="Bookstore/Models/IdentitySeedData.cs" Line="20" Column="70" />
-      <File FileName="Bookstore/Views/Account/Login.cshtml" Line="12" Column="21" />
-      <File FileName="Bookstore/Models/ViewModels/LoginModel.cs" Line="1" Column="1" />
-      <File FileName="Bookstore/Views/Shared/_Layout.cshtml" Line="14" Column="11" />
+      <File FileName="Bookstore/Views/Shared/_Layout.cshtml" Line="14" Column="41" />
+      <File FileName="Bookstore/Pages/Admin/AdminLayout.razor" Line="5" Column="26" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Bookstore" expanded="True">
             <Node name="Bookstore" expanded="True">
-              <Node name="Controllers" expanded="True" />
               <Node name="Pages" expanded="True">
-                <Node name="Admin" expanded="True" />
-              </Node>
-              <Node name="Views" expanded="True">
-                <Node name="Account" expanded="True" />
-                <Node name="Shared" expanded="True">
-                  <Node name="_Layout.cshtml" selected="True" />
+                <Node name="Admin" expanded="True">
+                  <Node name="AdminLayout.razor" selected="True" />
                 </Node>
               </Node>
             </Node>
