@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
+
 namespace Bookstore.Models.ViewModels
 {
     public class LoginModel

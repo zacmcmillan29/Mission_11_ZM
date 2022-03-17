@@ -86,7 +86,9 @@ namespace Bookstore
             app.UseSession();
 
 
-
+            //
+            app.UseAuthentication();
+            app.UseAuthorization();
 
 
             app.UseEndpoints(endpoints =>
@@ -114,6 +116,9 @@ namespace Bookstore
                 endpoints.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
 
             });
+
+            //calling the user at the startup! we want the IApplication BUilder, which we define above as app!
+            IdentitySeedData.EnsurePopulated(app);
         }
     }
 }

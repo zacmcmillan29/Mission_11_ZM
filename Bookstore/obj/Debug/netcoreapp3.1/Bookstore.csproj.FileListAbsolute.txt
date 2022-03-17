@@ -455,3 +455,4 @@
 /Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_11_/Mission_11_ZM/Bookstore/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 /Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_11_/Mission_11_ZM/Bookstore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
 /Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_11_/Mission_11_ZM/Bookstore/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll
+/Users/zacmcmillan/Library/Mobile Documents/com~apple~CloudDocs/IS junior core/WINTER 2022/IS 413/Mission Assignments/Mission_11_/Mission_11_ZM/Bookstore/obj/Debug/netcoreapp3.1/Razor/Views/Account/Login.cshtml.g.cs
