@@ -26,6 +26,8 @@
     <None Remove="Views\Purchase\" />
     <None Remove="Pages\Admin\" />
     <None Remove="Models\PurchaseRepositoryInfo\" />
+    <None Remove="Microsoft.AspNetCore.Identity.EntityFrameworkCore" />
+    <None Remove="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
@@ -44,6 +46,7 @@
     <Folder Include="Views\Purchase\" />
     <Folder Include="Pages\Admin\" />
     <Folder Include="Models\PurchaseRepositoryInfo\" />
+    <Folder Include="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\" />
@@ -64,5 +67,6 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="bootstrap" Version="5.1.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.22" />
   </ItemGroup>
 </Project>

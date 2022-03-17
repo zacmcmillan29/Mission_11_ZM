@@ -6,6 +6,7 @@ using Bookstore.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -38,6 +39,15 @@ namespace Bookstore
             {
                 options.UseSqlite(Configuration["ConnectionStrings:BookstoreDBConnection"]);
             });
+
+
+            //add the dbContext of Identity!
+            services.AddDbContext<AppIdentityDBContext>(options => options.UseSqlite(Configuration["ConnectionStrings:IdentityDBConnection"]));
+
+
+            //this goes along our datbase above = serves as helping with login stuff
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppIdentityDBContext>();
 
 
             //add the ability to reach the repositories we built!!
